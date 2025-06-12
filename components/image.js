@@ -1,15 +1,17 @@
 import {Figure, FigureCaption, Image} from "react-bootstrap";
 
-export default function ImageWithCaption({children, src, alt, width = 200, height = 200}) {
+export default function ImageWithCaption({children, src, alt, width, height}) {
   return (
-    <div className={"text-center"}>
-      <Figure className={"border border-light-subtle p-2"}>
+    <div className={"text-center p-2"}>
+      <Figure>
         <Image
           width={width}
           height={height}
           alt={alt}
           src={src}
           className={"mb-2"}
+          rounded
+          fluid
         />
         <FigureCaption>
           {children}
