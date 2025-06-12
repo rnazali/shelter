@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import Container from "react-bootstrap/Container";
 
 export const metadata = {
   title: "🏕️ Big Little Shelter",
@@ -9,9 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-bs-theme="light">
     <body>
-    <div className={"container"}>
+    <Container>
       {children}
-    </div>
+    </Container>
     </body>
     </html>
   );
