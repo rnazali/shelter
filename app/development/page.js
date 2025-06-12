@@ -1,5 +1,10 @@
-import {Alert, Button, Stack} from "react-bootstrap";
+import {
+  Alert,
+  Button,
+  Stack
+} from "react-bootstrap";
 import {getLorem} from "@/components/utilities";
+import ImageWithCaption from "@/components/image";
 
 
 export default function Development() {
@@ -15,8 +20,15 @@ export default function Development() {
         <Button variant="outline-danger">Asd</Button>
       </Stack>
 
-      <Alert variant="warning">Alert</Alert>
+      <>
+        <Alert variant="warning">Alert</Alert>
+      </>
 
+      <>
+        <ImageWithCaption src={"trubus.jpg"}>
+          This is a caption about very cute little cactus.
+        </ImageWithCaption>
+      </>
     </div>
   )
 }
