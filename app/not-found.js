@@ -9,7 +9,7 @@ export default function NotFound() {
       </div>
       <div>
         <p>Please have a magnificent cactus instead:</p>
-        <ImageWithCaption src={"trubus.jpg"}>
+        <ImageWithCaption src={"/trubus.jpg"}>
           Hi, my name is Trubus the  cactus!
         </ImageWithCaption>
       </div>
