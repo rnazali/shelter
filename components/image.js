@@ -2,7 +2,7 @@ import {Figure, FigureCaption, Image} from "react-bootstrap";
 
 export default function ImageWithCaption({children, src, alt, width, height}) {
   return (
-    <div className={"text-center p-2"}>
+    <div className={"text-center"}>
       <Figure>
         <Image
           width={width}
