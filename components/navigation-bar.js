@@ -12,7 +12,7 @@ import {metadata} from "@/app/layout";
 
 export default function NavigationBar() {
   return (
-    <Navbar expand="lg" className="bg-success-subtle mb-4">
+    <Navbar expand="lg" className="bg-light mb-4">
       <Container>
         <NavbarBrand href="/">{metadata.title}</NavbarBrand>
         <NavbarToggle aria-controls="basic-navbar-nav"/>
